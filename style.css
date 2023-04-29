@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    width: 880px;
+    height: 228px;
+    background-color: #f1c50e;
+    position: absolute;
+    top: 156px;
+    z-index: -1;
+}
+.card{
+    width: 489px;
+    height: 465px;
+    border: 6px solid #f1c50e;
+    position: absolute;
+    left: 460px;
+    top: 85px;
+    background-color: #ffff;
+}
+.txt1{
+    font-size: 48px;
+    padding-top: 70px;
+    padding-left: 35px;
+    color: #f1c50e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.txt2{
+    font-size: 48px;
+    padding-left: 35px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.txt3{
+    padding-top: 20px;
+    padding-left: 35px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.txt4{
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.button{
+    color: #ffff;
+    background-color: #000000;
+    width: 144.11px;
+    height: 35.59px;
+    position: relative;
+    left: 35px;
+    top: 37px;
+    text-align: center;
+    border: 0;
+    transition: all 1s ;
+}
+.a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.right{
+    width: 880px;
+    height: 228px;
+    background-color: #f1c50e;
+    position: absolute;
+    left: 1086px;
+    top: 322px;
+    z-index: -2;
+}
+.img{
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    left: 840px;
+    top: 170px;
+}
+.hvr:hover{
+background-color: rgb(65, 64, 64);
+transition: 0.1s;
+}
